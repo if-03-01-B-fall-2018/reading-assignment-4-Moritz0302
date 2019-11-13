@@ -1,0 +1,78 @@
+html{
+    font-family: Verdana;
+    background: black;
+}
+strong{
+    color: orange;
+}
+h1{
+    text-align: center;
+    color:orange;
+}
+p{
+    text-align: left;
+    color:white;
+}
+h3{
+    text-align: left;
+    color: orange;
+}
+h2{
+    text-align: left;
+    color: orange;
+}
+article{
+    color: white;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: rgb(81, 194, 15);
+}
+a:hover{
+    color: lightblue
+}
+a:active{
+    color: black;
+}
+li{
+    color: white;
+}
+ul.a{
+    list-style-type: circle;
+}
+ul.b{
+    list-style-type: square;
+}
+ul.c{
+    list-style-image: url("my-bullet.png");
+}
+ul.d{
+    list-style-type: upper-roman;
+}
+ul.e{
+    list-style-position: outside;
+}
+ul.f{
+    list-style-position: inside;
+}
+
+table.a{
+    padding: 8px;
+    border: 1px orange;
+}
+th{
+    font-size: 120%;
+}
+tr{
+    background-color: black;
+    color: orange;
+}
+tr:nth-child(even){
+    background-color: orange;
+    color: black;
+}
+tr:hover{
+    background-color: orangered;
+}
